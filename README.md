@@ -1,10 +1,10 @@
 ## Project setup
 
-# Install redis
+### Install redis
 
-# Setup mongodb database
+### Setup mongodb database
 
-# Check .env.example file set config variable in .env
+### Check .env.example file set config variable in .env
 
 ```bash
 $ npm install
