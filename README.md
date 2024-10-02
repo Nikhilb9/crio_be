@@ -34,40 +34,6 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-# const user = [
-
-         {
-          email: 'n@gmail.com',
-          role: UserRole.ADMIN,
-          password: hash,
-        },
-        {
-          email: 'ni@gmail.com',
-          role: UserRole.USER,
-          password: hash,
-        },
-        {
-          email: 'nik@gmail.com',
-          role: UserRole.USER,
-          password: hash,
-        },
-        {
-          email: 'nikh@gmail.com',
-          role: UserRole.USER,
-          password: hash,
-        },
-        {
-          email: 'nikhi@gmail.com',
-          role: UserRole.USER,
-          password: hash,
-        },
-        {
-          email: 'nikhil@gmail.com',
-          role: UserRole.USER,
-          password: hash,
-        },
-      ];
-
 ### Users List for testing
 
 | email            | password | role  |
