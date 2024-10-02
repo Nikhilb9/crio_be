@@ -27,6 +27,7 @@ export class WebsocketsGateway
     console.log('Client connected:', client.id);
   }
 
+  @SubscribeMessage('userDisconnected')
   async handleDisconnect(client: Socket) {
     const userId = await this.redisClient.get(client.id);
     if (userId) {
