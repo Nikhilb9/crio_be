@@ -16,7 +16,6 @@ export class AuthController {
   })
   @Post('/login')
   async loginUser(@Body() body: LoginUserDTO): Promise<LoginResponseDTO> {
-    console.log('++++++++++++++++++++++++=');
     return this.authService.loginUser(body);
   }
 }
